@@ -1,14 +1,20 @@
-const Navbar = (props) => {
+import style from "../../assets/css/navbar/navbar.module.css"
 
+const Navbar = (props) => {
     return (
-        <header>{props.children}</header>
+        <header className={style.navbar_container}>{props.children}</header>
     )
 }
 
 const Nav = (props) => {
-    return (<nav>{props.children}</nav>)
+    return (<a href={props.link} className={style.nav}>{props.children}</a>)
+}
+
+const Weighted = (props) => {
+    return (<a href={props.link} className={style.weigthed_nav}>{props.children}</a>)
 }
 
 Navbar.Nav = Nav
+Navbar.Weighted = Weighted
 
 export default Navbar

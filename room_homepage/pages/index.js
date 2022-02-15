@@ -1,17 +1,23 @@
+//REACT DEPENDENCIES
 import {useState} from 'react'
+
+//CSS MODULES
+
+
+//COMPONENTS
 import Navbar from '../components/Navbar/Navbar';
 
+
 const Homepage = () => {
-    const [state, setState] = useState(false);
 
     return (<>
+   
         <Navbar>
-            <Navbar.Nav>room</Navbar.Nav>
-            <Navbar.Nav>home</Navbar.Nav>
-            <Navbar.Nav>shop</Navbar.Nav>
-            <Navbar.Nav>about</Navbar.Nav>
-            <Navbar.Nav>contact</Navbar.Nav>
-
+            <Navbar.Weighted link="/">room</Navbar.Weighted>
+            <Navbar.Nav link="/home">home</Navbar.Nav>
+            <Navbar.Nav link="/shop">shop</Navbar.Nav>
+            <Navbar.Nav link="/about">about</Navbar.Nav>
+            <Navbar.Nav link="/contact">contact</Navbar.Nav>
         </Navbar>
     </>)
 }

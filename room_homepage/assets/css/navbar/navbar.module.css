@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Spartan";
+  src: url("../../font-family/Spartan-VariableFont_wght.ttf");
+}
+
+.navbar_container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+}
+
+.nav {
+  color: black;
+  flex-basis: 5rem;
+  text-align: center;
+  font-size: small;
+  font-family: "Spartan";
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.weigthed_nav {
+  color: black;
+  flex-basis: 7rem;
+  text-align: center;
+  font-size: large;
+  font-family: "Spartan";
+  font-weight: 1000;
+  text-decoration: none;
+}
