@@ -8,21 +8,24 @@
   flex-direction: row;
   align-items: center;
   justify-items: center;
+  height: 30%;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .nav {
-  color: black;
-  flex-basis: 5rem;
+  color: white;
+  flex-basis: 4rem;
   text-align: center;
-  font-size: small;
+  font-size: 0.6rem;
   font-family: "Spartan";
-  font-weight: 500;
+  font-weight: 550;
   text-decoration: none;
 }
 
 .weigthed_nav {
-  color: black;
-  flex-basis: 7rem;
+  color: white;
+  flex-basis: 5rem;
   text-align: center;
   font-size: large;
   font-family: "Spartan";

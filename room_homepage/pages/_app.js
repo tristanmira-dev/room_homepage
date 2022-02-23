@@ -1,7 +1,8 @@
+import ReactDom from 'react-dom'
+
 const App = ({Component, pageProps}) => {
 
-    return <div className="homepage_layout">
-    
+    return <div>
         <Component {...pageProps} />
         <style jsx global>
             {

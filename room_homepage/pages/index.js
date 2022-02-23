@@ -2,23 +2,18 @@
 import {useState} from 'react'
 
 //CSS MODULES
+import homepageItems from '../assets/css/layout/homepage.module.css'
 
 
 //COMPONENTS
 import Navbar from '../components/Navbar/Navbar';
+import Homepage from '../Layout/Homepage';
 
 
-const Homepage = () => {
+const Home = () => {
 
     return (<>
-   
-        <Navbar>
-            <Navbar.Weighted link="/">room</Navbar.Weighted>
-            <Navbar.Nav link="/home">home</Navbar.Nav>
-            <Navbar.Nav link="/shop">shop</Navbar.Nav>
-            <Navbar.Nav link="/about">about</Navbar.Nav>
-            <Navbar.Nav link="/contact">contact</Navbar.Nav>
-        </Navbar>
+        <Homepage/>
     </>)
 }
 
@@ -33,4 +28,4 @@ const Homepage = () => {
 //     }
 // }
 
-export default Homepage
+export default Home
